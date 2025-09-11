@@ -1,4 +1,4 @@
-# Servarr Guide
+# Servarr Install Guide
 
 Servarr is a suite of tools designed to index and download torrents. 
 
