@@ -13,3 +13,6 @@ Unlike Sonarr, [Radarr](https://radarr.video) has no "offical" installation scri
 Just like Radarr, [Prowlarr](https://prowlarr.com) can be installed via the community installation script. Follow the same instructions in the Radarr section and select Prowlarr instead. 
 
 ### Thats it!
+
+## Setting up Prowlarr
+Prowlarr should be set up before Radarr and Sonarr, since Radarr and Sonarr rely on Prowlarr to find content. Setting up is pretty easy - add indexers and in the connections page add Radarr and Sonarr. You will need their API keys, found in each's settings page.
