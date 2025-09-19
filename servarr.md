@@ -2,7 +2,16 @@
 
 Servarr is a suite of tools designed to index and download torrents. 
 
-### Make sure to verify the scripts before running them!
+The official Servarr suite consists of 
+
+- Lidarr 
+- Radarr
+- Readarr
+- Sonarr
+- Whisparr
+- Prowlarr
+
+### This guide will only be about Radarr, Sonarr, and Prowlarr.
 
 ## Sonarr Install Guide
 
@@ -15,6 +24,8 @@ or
 `wget -qO- https://raw.githubusercontent.com/Sonarr/Sonarr/develop/distribution/debian/install.sh | sudo bash` 
 
 depending if you want to use curl or wget. That's all! The script will walk you through the installation.
+
+### Make sure to verify the scripts before running them!
 
 ## Radarr Install Guide
 Unlike Sonarr, [Radarr](https://radarr.video) has no "official" installation script. There is a community install script for Radarr and other tools in the [Servarr](https://wiki.servarr.com) suite. Run 
