@@ -4,7 +4,7 @@
 
 Guides for the [Raspberry Pi](https://raspberrypi.com/)
 
-*** To use, make sure to have [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/) lite installed ***
+__To use, make sure to have [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/) lite installed__
 
 ### [Servarr Install Guide](servarr.md)
 ![Servarr logo](https://avatars.githubusercontent.com/u/57051827?s=200&v=4)
