@@ -23,6 +23,6 @@ How to setup the Servarr suite!
 How to setup Jellyfin - the self hosted media server!
 
 ### [PaperMC Guide](papermc.md)
-![PaperMC Logo](https://assets.papermc.io/brand/papermc_logo.min.svg)
+![PaperMC Logo](https://avatars.githubusercontent.com/u/7608950?s=200&v=4)
 
 How to setup your own Minecraft server!
