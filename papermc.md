@@ -35,3 +35,9 @@ PaperMC has a [downloads API](https://docs.papermc.io/misc/downloads-api/) for d
 to download the server.jar in your current directory! 
 
 #### This script can be use to update your server.jar too!
+
+## Run server.jar
+
+Run
+
+`curl -s "https://project516.github.io/RaspberryPiGuide/scripts/startpaper.sh" | bash`
