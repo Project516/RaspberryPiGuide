@@ -1,6 +1,8 @@
-# Paper MC Guide
+# PaperMC Guide
 
-[Paper MC](https://papermc.io) is a collection of software for administrating Minecraft Java servers. 
+![PaperMC logo](https://assets.papermc.io/brand/papermc_combination_mark_dark.min.svg)
+
+[PaperMC](https://papermc.io) is a collection of software for administrating Minecraft Java servers. 
 
 ### Note: With [Geyser](https://geysermc.org), Bedrock players can join!
 
