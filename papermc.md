@@ -41,3 +41,5 @@ to download the server.jar in your current directory!
 Run
 
 `curl -s "https://project516.github.io/RaspberryPiGuide/scripts/startpaper.sh" | bash`
+
+to start your server!
