@@ -30,6 +30,8 @@ to verify the installation.
 
 PaperMC has a [downloads API](https://docs.papermc.io/misc/downloads-api/) for downloading their software. Run 
 
-`curl -s "https://project516.github.io/RaspberryPiGuide/scripts/installpaper.sh" | bash`
+`curl -s "https://project516.github.io/RaspberryPiGuide/scripts/updatepaper.sh" | bash`
 
-to run a script that installs the latest paper server version!
+to download the server.jar in your current directory! 
+
+#### This script can be use to update your server.jar too!
