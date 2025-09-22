@@ -2,4 +2,32 @@
 
 [Paper MC](https://papermc.io) is a collection of software for administrating Minecraft Java servers. 
 
-## Note: With [Geyser](https://geysermc.org), Bedrock players can join!
+### Note: With [Geyser](https://geysermc.org), Bedrock players can join!
+
+## Installing Java with SDKMAN!
+
+First install Java. I recommend using [SDKMAN!](https://sdkman.io) for installing Java. To do so, run
+
+`sudo apt update && sudo apt install zip unzip -y`
+
+to install dependencies and then
+
+`curl -s "https://get.sdkman.io" | bash`
+
+to install. Run
+
+`sdk install java 21.0.8-tem` to install Java 21.
+
+Run 
+
+`java -version` 
+
+to verify the installation.
+
+## Downloading the PaperMC Jar
+
+PaperMC has a [downloads API](https://docs.papermc.io/misc/downloads-api/) for downloading their software. Run 
+
+`curl -s "https://project516.github.io/RaspberryPiGuide/scripts/installpaper.sh" | bash`
+
+to run a script that installs the latest paper server version!
