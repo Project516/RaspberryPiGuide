@@ -10,7 +10,7 @@ Run
 
 `git clone https://github.com/Project516/RaspberryPiGuide.git`
 
-to clone this locally on your computer!
+to clone this repository locally on your computer!
 
 ### [Servarr Install Guide](servarr.md)
 ![Servarr logo](https://avatars.githubusercontent.com/u/57051827?s=200&v=4)
