@@ -12,3 +12,7 @@ curl -s "https://project516.github.io/RaspberryPiGuide/scripts/installpaper.sh" 
 rm -f plugins/geyser.jar
 # Redownload Geyser
 curl -s -L -o plugins/geyser.jar https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/spigot
+# Remove Floodgate
+rm -f plugins/floodgate.jar
+# Redownload Floodgate
+curl -s -L -o plugins/floodgate.jar https://download.geysermc.org/v2/projects/floodgate/versions/latest/builds/latest/downloads/spigot
