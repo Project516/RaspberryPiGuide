@@ -17,3 +17,9 @@ curl -s -L -o plugins/geyser.jar https://download.geysermc.org/v2/projects/geyse
 rm -f plugins/floodgate.jar
 # Redownload Floodgate
 curl -s -L -o plugins/floodgate.jar https://download.geysermc.org/v2/projects/floodgate/versions/latest/builds/latest/downloads/spigot
+rm -f plugins/viaversion.jar
+curl -s -L -o plugins/viaversion.jar https://hangarcdn.papermc.io/plugins/ViaVersion/ViaVersion/versions/5.4.2/PAPER/ViaVersion-5.4.2.jar
+rm -f plugins/viabackwards.jar
+curl -s -L -o plugins/viabackwards.jar https://hangarcdn.papermc.io/plugins/ViaVersion/ViaBackwards/versions/5.4.2/PAPER/ViaBackwards-5.4.2.jar
+rm -f plugins/viarewind.jar
+curl -s -L -o plugins/viarewind.jar https://hangarcdn.papermc.io/plugins/ViaVersion/ViaRewind/versions/4.0.9/PAPER/ViaRewind-4.0.9.jar
