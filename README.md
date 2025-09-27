@@ -2,6 +2,9 @@
 
 # Raspberry Pi Guide
 
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/project516/RaspberryPiGuide)
+![GitHub last commit](https://img.shields.io/github/last-commit/project516/Raspberrypiguide)
+
 Guides for the [Raspberry Pi](https://raspberrypi.com/)
 
 __To use, make sure to have [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/) lite installed__
