@@ -29,3 +29,7 @@ How to setup Jellyfin - the self hosted media server!
 [![PaperMC Logo](https://avatars.githubusercontent.com/u/7608950?s=200&v=4)](papermc.md)
 
 How to setup your own Minecraft server using PaperMC - the blazing fast Minecraft server!
+
+### [Trixie Updating Guide](trixie.md)
+
+How to update a Bookworm OS to Trixie!
