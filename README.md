@@ -32,4 +32,4 @@ How to setup your own Minecraft server using PaperMC - the blazing fast Minecraf
 
 ### [Trixie Updating Guide](trixie.md)
 
-How to update a Bookworm OS to Trixie!
+How to update from Bookworm to Trixie!
