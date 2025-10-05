@@ -1,45 +1,78 @@
+---
+title: "PaperMC Minecraft Server Setup on Raspberry Pi"
+description: "Complete guide to setting up a PaperMC Minecraft server on Raspberry Pi. Includes Java installation, server configuration, and Geyser for Bedrock cross-play."
+keywords: "papermc, minecraft server, raspberry pi, minecraft, java, geyser, bedrock, minecraft raspberry pi, paper minecraft"
+---
+
 # PaperMC Guide
 
 ![PaperMC logo](https://assets.papermc.io/brand/papermc_combination_mark_dark.min.svg)
 
-[PaperMC](https://papermc.io) is a collection of software for administrating Minecraft Java servers. 
+[PaperMC](https://papermc.io) is a high-performance Minecraft server software for administrating Minecraft Java Edition servers. 
 
-### Note: With [Geyser](https://geysermc.org), Bedrock players can join!
+### Note: With [Geyser](https://geysermc.org), Bedrock players can join your Java server!
+
+## Prerequisites
+
+You'll need Java 21 or higher to run modern Minecraft servers.
 
 ## Installing Java with SDKMAN!
 
-First install Java. I recommend using [SDKMAN!](https://sdkman.io) for installing Java. To do so, run
+First, install Java. I recommend using [SDKMAN!](https://sdkman.io) for managing Java installations. 
 
-`sudo apt update && sudo apt install zip unzip -y`
+Install dependencies:
 
-to install dependencies and then
+```bash
+sudo apt update && sudo apt install zip unzip -y
+```
 
-`curl -s "https://get.sdkman.io" | bash`
+Install SDKMAN!:
 
-to install. Run
+```bash
+curl -s "https://get.sdkman.io" | bash
+```
 
-`sdk install java 21.0.8-tem` to install Java 21.
+Install Java 21:
 
-Run 
+```bash
+sdk install java 21.0.8-tem
+```
 
-`java -version` 
+Verify the installation:
 
-to verify the installation.
+```bash
+java -version
+```
 
-## Downloading the PaperMC Jar
+## Downloading the PaperMC Server
 
-PaperMC has a [downloads API](https://docs.papermc.io/misc/downloads-api/) for downloading their software. Run 
+PaperMC has a [downloads API](https://docs.papermc.io/misc/downloads-api/) for downloading their software. Run:
 
-`curl -s "https://project516.github.io/RaspberryPiGuide/scripts/updatepaper.sh" | bash`
+```bash
+curl -s "https://project516.github.io/RaspberryPiGuide/scripts/updatepaper.sh" | bash
+```
 
-to download the server.jar in your current directory! 
+This downloads the server.jar in your current directory.
 
-#### This script can be use to update your server.jar too!
+**Note**: This script can also be used to update your server.jar to the latest version!
 
-## Run server.jar
+## Running the Server
 
-Run
+Start your server with:
 
-`curl -s "https://project516.github.io/RaspberryPiGuide/scripts/startpaper.sh" | bash`
+```bash
+curl -s "https://project516.github.io/RaspberryPiGuide/scripts/startpaper.sh" | bash
+```
 
-to start your server!
+## Official Documentation
+
+- [PaperMC Documentation](https://docs.papermc.io/paper) - Complete server documentation
+- [PaperMC Downloads](https://papermc.io/downloads) - Official download page
+- [PaperMC GitHub](https://github.com/PaperMC/Paper) - Source code and issues
+- [Geyser Documentation](https://wiki.geysermc.org/) - Cross-play setup guide
+- [Aikars Flags](https://docs.papermc.io/paper/aikars-flags) - Optimized JVM flags for Minecraft
+
+## Community Resources
+
+- [PaperMC Discord](https://discord.gg/papermc) - Official community support
+- [r/admincraft](https://reddit.com/r/admincraft) - Minecraft server administration community
