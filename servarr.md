@@ -12,7 +12,7 @@ The official Servarr suite consists of:
 
 - **Lidarr** - Music collection manager
 - **Radarr** - Movie collection manager
-- **Readarr** - Book collection manager
+- **Readarr** - Book collection manager (Retired)
 - **Sonarr** - TV show collection manager
 - **Whisparr** - Adult content manager
 - **Prowlarr** - Indexer manager for all *arr apps
@@ -35,7 +35,7 @@ wget -qO- https://raw.githubusercontent.com/Sonarr/Sonarr/develop/distribution/d
 
 The script will walk you through the installation. Access Sonarr at `http://your-pi-ip:8989`
 
-**⚠️ Important**: Always verify scripts before running them!
+**Important**: Always verify scripts before running them!
 
 ## Radarr Install Guide
 
@@ -58,8 +58,6 @@ Follow the instructions to install Radarr. Access Radarr at `http://your-pi-ip:7
 [Prowlarr](https://prowlarr.com) manages indexers for all your *arr applications. Install it using the same community script as Radarr.
 
 Follow the same instructions as the Radarr section above, but select Prowlarr when prompted. Access Prowlarr at `http://your-pi-ip:9696`
-
-### That's it!
 
 ## Setting up Prowlarr
 
