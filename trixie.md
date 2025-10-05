@@ -23,10 +23,20 @@ It is recommended by Raspberry Pi to do a fresh reinstall, but you can also try 
 
 ### Quick Steps
 
-1. **Update current system**: `sudo apt update && sudo apt full-upgrade -y`
-2. **Backup sources**: `sudo cp /etc/apt/sources.list /etc/apt/sources.list.backup`
-3. **Update sources**: Replace `bookworm` with `trixie` in `/etc/apt/sources.list`
-4. **Upgrade**: `sudo apt update && sudo apt full-upgrade -y`
-5. **Reboot**: `sudo reboot`
+__NOTE: This guide is for the LITE varient of Raspberry Pi OS. If you have Raspberry Pi OS normal (with a desktop enviornment) refer to the Raspberry Pi OS updating guide in the Other resources section!__
 
-For detailed instructions, follow the official Debian guide linked above.
+## Finalizing Bookworm
+
+First you should update the remaining bookworm packages you have. Run `sudo apt update` and `sudo apt full-upgrade -y`. Run `sudo apt autoremove -y` to remove any unneeded packages.
+
+## Updating apt sources
+
+The next step is to update the apt sources.
+
+
+
+## Other resources
+
+[Raspberry Pi OS updating guide](https://forums.raspberrypi.com/viewtopic.php?t=392376)
+
+[Debian offical updating guide](https://www.debian.org/releases/trixie/release-notes/upgrading.en.html)
