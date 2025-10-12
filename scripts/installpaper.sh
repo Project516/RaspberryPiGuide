@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 PROJECT="paper"
-MINECRAFT_VERSION="1.21.9"
+MINECRAFT_VERSION="1.21.10"
 USER_AGENT="RaspberryPiGuide/1.0.0 (RaspberryPiGuide@gmail.com)"
 
 # First check if the version exists
