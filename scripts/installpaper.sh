@@ -1,8 +1,8 @@
 #!/usr/bin/env sh
 
 PROJECT="paper"
-MINECRAFT_VERSION="1.21.8"
-USER_AGENT="cool-project/1.0.0 (contact@me.com)"
+MINECRAFT_VERSION="1.21.10"
+USER_AGENT="very-cool-project/1.0.0 (dontcontact@me.net)"
 
 # First check if the version exists
 VERSION_CHECK=$(curl -s -H "User-Agent: $USER_AGENT" https://fill.papermc.io/v3/projects/${PROJECT}/versions/${MINECRAFT_VERSION}/builds)
