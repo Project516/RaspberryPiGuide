@@ -16,26 +16,27 @@ keywords: "papermc, minecraft server, raspberry pi, minecraft, java, geyser, bed
 
 You'll need Java 21 or higher to run modern Minecraft servers.
 
-## Installing Java with SDKMAN!
+## Installing Java
 
-First, install Java. I recommend using [SDKMAN!](https://sdkman.io) for managing Java installations. 
-
-Install dependencies:
+First, ensure your system has all required tools to successfully install Java.
 
 ```bash
-sudo apt update && sudo apt install zip unzip -y
+sudo apt-get update
+sudo apt-get install ca-certificates apt-transport-https gnupg wget
 ```
 
-Install SDKMAN!:
+Second, import the Amazon Corretto public key and apt repository.
 
 ```bash
-curl -s "https://get.sdkman.io" | bash
+wget -O - https://apt.corretto.aws/corretto.key | sudo gpg --dearmor -o /usr/share/keyrings/corretto-keyring.gpg && \
+echo "deb [signed-by=/usr/share/keyrings/corretto-keyring.gpg] https://apt.corretto.aws stable main" | sudo tee /etc/apt/sources.list.d/corretto.list
 ```
 
-Install Java 21:
+Then, install Java 21 and other dependencies using the following command:
 
 ```bash
-sdk install java 21.0.8-tem
+sudo apt-get update
+sudo apt-get install -y java-21-amazon-corretto-jdk libxi6 libxtst6 libxrender1
 ```
 
 Verify the installation:
