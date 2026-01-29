@@ -7,7 +7,7 @@ pkill -f 'server.jar'
 # Remove server.jar file
 rm -f server.jar
 # Download the server.jar file
-curl -s "https://project516.github.io/RaspberryPiGuide/scripts/installpaper.sh" | bash
+curl -s "https://project516.dev/RaspberryPiGuide/scripts/installpaper.sh" | bash
 mkdir -p plugins
 # Remove Geyser
 rm -f plugins/geyser.jar
