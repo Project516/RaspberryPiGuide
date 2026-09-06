@@ -19,7 +19,7 @@ First you should update the remaining bookworm packages you have. Run `sudo apt 
 
 The next step is to update the apt sources.
 
-Open `/etc/apt/sources.list` and change every instance of `bookworm` to `trixie`. Do the same for the files in `/etc/apt/sources.list.d/` — on a clean install this will just be `raspi.list`, but if you have added any other repositories, update those too.
+Open `/etc/apt/sources.list` and change every instance of `bookworm` to `trixie`. Do the same for the files in `/etc/apt/sources.list.d/`. On a clean install this will just be `raspi.list`, but if you have added any other repositories, update those too.
 
 You can also do this in one shot with the following command:
 
@@ -41,7 +41,7 @@ Now run the upgrade. This upgrades all of your packages to their trixie versions
 sudo apt full-upgrade -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confnew" --purge --auto-remove
 ```
 
-__NOTE: Enter this command exactly as shown — the punctuation matters!__
+__NOTE: Enter this command exactly as shown. The punctuation matters!__
 
 During the upgrade you may be asked if you want to restart services. Answer yes! If you get any other questions, yes is usually the right answer.
 

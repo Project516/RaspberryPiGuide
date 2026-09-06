@@ -4,9 +4,9 @@ description: "Install and configure the Servarr suite (Radarr, Sonarr, Prowlarr)
 keywords: "servarr, radarr, sonarr, prowlarr, raspberry pi, media automation, plex, jellyfin, torrent, usenet"
 ---
 
-# Servarr Install Guide
+# Servarr install guide
 
-The Servarr suite is a collection of tools designed to automate media management and acquisition. 
+The Servarr suite is a collection of tools that automate media management and acquisition.
 
 The official Servarr suite consists of:
 
@@ -19,7 +19,7 @@ The official Servarr suite consists of:
 
 ### This guide covers Radarr, Sonarr, and Prowlarr.
 
-## Sonarr Install Guide
+## Sonarr install guide
 
 [Sonarr](https://sonarr.tv) manages and downloads TV shows automatically. It has an official installation script:
 
@@ -37,7 +37,7 @@ The script will walk you through the installation. Access Sonarr at `http://your
 
 **Important**: Always verify scripts before running them!
 
-## Radarr Install Guide
+## Radarr install guide
 
 [Radarr](https://radarr.video) manages and downloads movies automatically. Unlike Sonarr, it uses a community installation script from the [Servarr Wiki](https://wiki.servarr.com).
 
@@ -53,7 +53,7 @@ sudo bash servarr-install-script.sh
 
 Follow the instructions to install Radarr. Access Radarr at `http://your-pi-ip:7878`
 
-## Prowlarr Install Guide
+## Prowlarr install guide
 
 [Prowlarr](https://prowlarr.com) manages indexers for all your *arr applications. Install it using the same community script as Radarr.
 
@@ -69,7 +69,7 @@ Setup steps:
 3. You'll need their API keys (found in Settings → General → Security in each app)
 4. Prowlarr will automatically sync indexers to all connected apps
 
-## Official Documentation
+## Official documentation
 
 - [Servarr Wiki](https://wiki.servarr.com/) - Comprehensive documentation for all *arr apps
 - [Sonarr Documentation](https://wiki.servarr.com/sonarr) - Official Sonarr docs
@@ -77,7 +77,7 @@ Setup steps:
 - [Prowlarr Documentation](https://wiki.servarr.com/prowlarr) - Official Prowlarr docs
 - [TRaSH Guides](https://trash-guides.info/) - Community quality guides and recommended settings
 
-## Community Support
+## Community support
 
 - [Servarr Discord](https://discord.gg/servarr) - Official community support
 - [r/sonarr](https://reddit.com/r/sonarr), [r/radarr](https://reddit.com/r/radarr), [r/prowlarr](https://reddit.com/r/prowlarr) - Community subreddits

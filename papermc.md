@@ -4,7 +4,7 @@ description: "Complete guide to setting up a PaperMC Minecraft server on Raspber
 keywords: "papermc, minecraft server, raspberry pi, minecraft, java, geyser, bedrock, minecraft raspberry pi, paper minecraft"
 ---
 
-# PaperMC Guide
+# PaperMC guide
 
 ![PaperMC logo](https://assets.papermc.io/brand/papermc_combination_mark_dark.min.svg)
 
@@ -18,7 +18,7 @@ You'll need Java 25 or higher to run modern Minecraft servers. Java 25 is only a
 
 ## Installing Java
 
-First, ensure your system has all required tools to successfully install Java.
+First, ensure your system has all required tools to install Java.
 
 ```bash
 sudo apt-get update
@@ -45,7 +45,7 @@ Verify the installation:
 java -version
 ```
 
-## Downloading the PaperMC Server
+## Downloading the PaperMC server
 
 PaperMC has a [downloads API](https://docs.papermc.io/misc/downloads-api/) for downloading their software. Run:
 
@@ -55,9 +55,9 @@ curl -s "https://project516.dev/RaspberryPiGuide/scripts/updatepaper.sh" | bash
 
 This downloads the server.jar in your current directory.
 
-**Note**: This script can also be used to update your server.jar to the latest version!
+**Note**: You can also run this script again to update your server.jar to the latest version!
 
-## Running the Server
+## Running the server
 
 Start your server with:
 
@@ -65,7 +65,7 @@ Start your server with:
 curl -s "https://project516.dev/RaspberryPiGuide/scripts/startpaper.sh" | bash
 ```
 
-## Official Documentation
+## Official documentation
 
 - [PaperMC Documentation](https://docs.papermc.io/paper) - Complete server documentation
 - [PaperMC Downloads](https://papermc.io/downloads) - Official download page
@@ -73,7 +73,7 @@ curl -s "https://project516.dev/RaspberryPiGuide/scripts/startpaper.sh" | bash
 - [Geyser Documentation](https://wiki.geysermc.org/) - Cross-play setup guide
 - [Aikars Flags](https://docs.papermc.io/paper/aikars-flags) - Optimized JVM flags for Minecraft
 
-## Community Resources
+## Community resources
 
 - [PaperMC Discord](https://discord.gg/papermc) - Official community support
 - [r/admincraft](https://reddit.com/r/admincraft) - Minecraft server administration community
