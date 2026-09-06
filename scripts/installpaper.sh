@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 PROJECT="paper"
-MINECRAFT_VERSION="1.21.11"
+MINECRAFT_VERSION="26.2"
 USER_AGENT="very-cool-project/1.0.0 (goaway@me.com)"
 
 # First check if the requested version has a stable build
