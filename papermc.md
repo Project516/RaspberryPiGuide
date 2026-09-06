@@ -14,7 +14,7 @@ keywords: "papermc, minecraft server, raspberry pi, minecraft, java, geyser, bed
 
 ## Prerequisites
 
-You'll need Java 21 or higher to run modern Minecraft servers.
+You'll need Java 25 or higher to run modern Minecraft servers. Java 25 is only available for 64-bit systems, so make sure you are running the 64-bit version of Raspberry Pi OS.
 
 ## Installing Java
 
@@ -32,11 +32,11 @@ wget -O - https://apt.corretto.aws/corretto.key | sudo gpg --dearmor -o /usr/sha
 echo "deb [signed-by=/usr/share/keyrings/corretto-keyring.gpg] https://apt.corretto.aws stable main" | sudo tee /etc/apt/sources.list.d/corretto.list
 ```
 
-Then, install Java 21 and other dependencies using the following command:
+Then, install Java 25 and other dependencies using the following command:
 
 ```bash
 sudo apt-get update
-sudo apt-get install -y java-21-amazon-corretto-jdk libxi6 libxtst6 libxrender1
+sudo apt-get install -y java-25-amazon-corretto-jdk libxi6 libxtst6 libxrender1
 ```
 
 Verify the installation:
@@ -50,7 +50,7 @@ java -version
 PaperMC has a [downloads API](https://docs.papermc.io/misc/downloads-api/) for downloading their software. Run:
 
 ```bash
-curl -s "https://project516.github.io/RaspberryPiGuide/scripts/updatepaper.sh" | bash
+curl -s "https://project516.dev/RaspberryPiGuide/scripts/updatepaper.sh" | bash
 ```
 
 This downloads the server.jar in your current directory.
@@ -62,7 +62,7 @@ This downloads the server.jar in your current directory.
 Start your server with:
 
 ```bash
-curl -s "https://project516.github.io/RaspberryPiGuide/scripts/startpaper.sh" | bash
+curl -s "https://project516.dev/RaspberryPiGuide/scripts/startpaper.sh" | bash
 ```
 
 ## Official Documentation
