@@ -16,17 +16,17 @@ Run
 to clone this repository locally on your computer!
 
 ### [Servarr install guide](servarr.md)
-[![Servarr logo](https://avatars.githubusercontent.com/u/57051827?s=200&v=4)](servarr.md)
+[![Servarr logo](https://avatars.githubusercontent.com/u/57051827?s=200&v=4)](https://project516.dev/RaspberryPiGuide/servarr.html)
 
 How to setup the Servarr suite!
 
 ### [Jellyfin install guide](jellyfin.md)
-[![Jellyfin logo](https://avatars.githubusercontent.com/u/45698031?s=200&v=4)](jellyfin.md)
+[![Jellyfin logo](https://avatars.githubusercontent.com/u/45698031?s=200&v=4)](https://project516.dev/RaspberryPiGuide/jellyfin.html)
 
 How to setup Jellyfin, the self hosted media server!
 
 ### [PaperMC guide](papermc.md)
-[![PaperMC Logo](https://avatars.githubusercontent.com/u/7608950?s=200&v=4)](papermc.md)
+[![PaperMC Logo](https://avatars.githubusercontent.com/u/7608950?s=200&v=4)](https://project516.dev/RaspberryPiGuide/papermc.html)
 
 How to setup your own Minecraft server using PaperMC!
 
